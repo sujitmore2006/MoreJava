@@ -8,7 +8,7 @@ public class MiArray
 
         players = new String[4];
 
-        players[0] = "David";
+        players[0] = "Davis";
         players[1] = "Daniel";
         players[2] = "Anna";
         players[3] = "Gregory";
