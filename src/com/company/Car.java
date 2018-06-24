@@ -2,7 +2,7 @@ package com.company;
 
 public class Car
 {
-    int distance = 4000;
+    int distance = 5000;
 
     public void start()
     {
