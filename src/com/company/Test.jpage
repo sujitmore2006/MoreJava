@@ -1,0 +1,7 @@
+int x = 25;
+x *= 5;
+System.out.println(x);int x = 125;x += 24;System.out.println(x);int x = 125;x -= 24;System.out.println(x);int x = 125;x *= 24;System.out.println(x);int x = 125;x /= 24;System.out.println(x);double x = (25.5 * 3.5 - 3.5 *3.5);x /= (40.5-4.5);System.out.println(x);double x = (7.5 * 7.5);x *= 3.14;System.out.println(x);
+
+double x = (7.5 * 2);
+x *= 3.14;
+System.out.println(x);
