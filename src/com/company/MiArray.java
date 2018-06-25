@@ -21,12 +21,36 @@ public class MiArray
         System.out.println("The number of players in the array are: " + totalPlayers);
 
         //starting my loop code
-        int counter;
+        int counter = 0;
 
-        for(counter = 0; counter < totalPlayers; counter++)
+        /*for(counter = 0; counter < totalPlayers; counter++)
         {
             String thePlayer = players[counter];
             System.out.println("Congratulations1, " + thePlayer + "!");
         }
+
+        while (counter < totalPlayers)
+        {
+            if (counter == 3)
+            {
+                break; //Jump out of loop
+            }
+            String thePlayer = players[counter];
+            System.out.println("Congratulations, " + thePlayer + "!");
+            counter++;
+        }*/
+
+        while (counter < totalPlayers)
+        {
+            counter++;
+            String thePlayer = players[counter];
+            if (thePlayer.equals("David")){
+                continue;
+            }
+            System.out.println("Congratulations, " + thePlayer + "!");
+
+        }
+
+
     }
 }
